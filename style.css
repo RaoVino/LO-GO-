@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(./images/Blob\ Shape.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.maincontainer {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+
+.maincontainer .container .listsec ul {
+    display: flex;
+}
+
+.maincontainer .container .listsec ul li a {
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: #000000;
+}
+
+.maincontainer .container .buttonSec button {
+    width: 110px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    background-color: #000000;
+    z-index: 111;
+    cursor: pointer;
+}
+
+button:hover {
+    color: red;
+}
+
+.loream {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 40px;
+}
+
+.loream .paraSec h3 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    width: 600px;
+    line-height: 60px;
+}
+
+.loream .paraSec p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.loream .paraSec button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    background-color: #C4C4C4;
+    cursor: pointer;
+}
+
+.redSec img:nth-child(1) {
+    position: absolute;
+    left: 0;
+    top: 250px;
+    z-index: -1;
+}
+
+.redSec img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 510px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 864px) {
+    .maincontainer .container .listsec ul li a {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    .maincontainer .container .listsec ul li {
+        width: 100px;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .loream .paraSec h3 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        width: 550px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .loream .paraSec p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 28px;
+        text-align: center;
+    }
+    .loream .paraSec {
+        text-align: center;
+    }
+    .redSec img:nth-child(2) {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        width: 450px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 734px) {
+    .maincontainer .container .listsec ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .loream .paraSec h3 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        width: 100%;
+        line-height: 40px;
+        text-align: center;
+    }
+    .loream .paraSec p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 28px;
+        text-align: center;
+    }
+    .redSec img:nth-child(2) {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        width: 404px;
+        z-index: -1;
+    }
+    .redSec img:nth-child(1) {
+        position: absolute;
+        left: 0;
+        top: 400px;
+        z-index: -1;
+    }
+    .loream {
+        height: 50vh;
+    }
+}
+
+.who-we p,
+h4 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.who-we h4 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.who-we p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+
+.bannerSecond {
+    background-color: #f8efef;
+}
+
+.who-we {
+    margin: 100px 0 40px 0;
+}
+
+.ipsum {
+    display: flex;
+}
+
+.ipsum .printing {
+    flex-basis: 50%;
+}
+
+.ipsum .printing img {
+    width: 25%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.ipsum .lorem-ipsum {
+    flex-basis: 50%;
+    margin: 0 40px 80px 0;
+    position: relative;
+    padding: 10px;
+}
+
+.ipsum .lorem-ipsum p {
+    text-align: justify;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.ipsum .lorem-ipsum h4 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.lorem-ipsum::after {
+    content: "";
+    border: 1px solid red;
+    position: absolute;
+    height: 100%;
+    left: -23px;
+    top: 0;
+}
+
+@media screen and (max-width: 645px) {
+    .ipsum {
+        display: block;
+    }
+    .ipsum .printing img {
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    .lorem-ipsum::after {
+        display: none;
+    }
+    .lorem-ipsum {
+        margin: auto;
+        text-align: center;
+    }
+    .ipsum .lorem-ipsum p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .ipsum .lorem-ipsum h4 {
+        font-size: 22px;
+        margin: auto;
+        padding: 5px;
+    }
+    .who-we p,
+    h4 {
+        text-align: center;
+        width: 65%;
+        margin: auto;
+    }
+}
